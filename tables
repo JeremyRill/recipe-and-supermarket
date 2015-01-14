@@ -1,0 +1,19 @@
+Tables
+
+Ingredients table
+ing_id, ing
+
+Recipe table
+rec_id, name, instructions, pic?
+
+Unit
+unit_id, name
+
+rec_ing
+rec_id (from recipe table), ing_id (from Ingredients table), order, qty, unit, special instructions
+
+Supermarket table
+s_id, Name
+
+Shopping List table
+s_id (from supermarket table), ing_id (from Ingredients table), price?
